@@ -904,9 +904,7 @@ class ParsedOfxStatement(object):
                 memo = None
 
             narration = ' - '.join(
-                filter(None,
-                       (raw.trantype, raw.incometype, raw.inv401ksource, name,
-                        memo)))
+                filter(None, (name, memo)))
 
             if ignore_re and re.match(ignore_re, narration):
                 continue
