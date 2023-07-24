@@ -175,7 +175,7 @@ setuptools.setup(
         'atomicwrites>=1.3.0',
         'jsonschema',
         'watchdog',
-        'typing_extensions',
+        'typing-extensions',
         'cachetools',
     ],
     test_requirements=[
